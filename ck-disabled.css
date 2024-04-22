@@ -1,0 +1,6 @@
+input[type="checkbox"][disabled][checked] {
+  filter: invert(100%) hue-rotate(18deg) brightness(4);
+}
+input[type="checkbox"][disabled] {
+  filter: invert(100%) hue-rotate(18deg) brightness(5);
+}
